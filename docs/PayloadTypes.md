@@ -16,26 +16,29 @@ When integrating systems with Salesforce, understanding payload formats and how 
 
 ### Example Payloads Side by Side
 
-| JSON (REST) Example | XML (SOAP) Example | CSV Example |
-|---------------------|--------------------|-------------|
-| ```json
+**JSON (REST) Example**
+```json
 {
   "accountName": "Acme Corporation",
   "contactFirstName": "John",
   "contactLastName": "Doe",
   "contactEmail": "john.doe@acme.com"
 }
-``` | ```xml
+``` 
+*XML (SOAP) Example**
+```xml
 <CreateCustomerREQ>
   <accountName>Acme Corporation</accountName>
   <contactFirstName>John</contactFirstName>
   <contactLastName>Doe</contactLastName>
   <contactEmail>john.doe@acme.com</contactEmail>
 </CreateCustomerREQ>
-``` | ```csv
+``` 
+**CSV Example**
+```csv
 accountName,contactFirstName,contactLastName,contactEmail
 Acme Corporation,John,Doe,john.doe@acme.com
-``` |
+``` 
 
 ---
 
@@ -49,5 +52,5 @@ Acme Corporation,John,Doe,john.doe@acme.com
 
 ### Navigation
 
-[⬅️ Previous: Integration Fundamentals](./integration-fundamentals.md)  
-[➡️ Next: Protocols: REST vs SOAP](./protocols-rest-vs-soap.md)
+[⬅️ Previous: Integration Fundamentals](IntegrationFundamentals.md)  
+[➡️ Next: Protocols: REST vs SOAP ➡](Protocols.md)
