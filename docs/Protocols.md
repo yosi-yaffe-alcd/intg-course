@@ -54,15 +54,14 @@ Salesforce supports both REST and SOAP-based integrations. Choosing the right pr
 - Consumed using WSDL by external clients
 - Example operation: `createCustomer`
 
-🔗 [📎 Download WSDL](integrationSpecs/CustomerWS.wsdl)
+🔗 [📎 Download WSDL](integrationSpecs/CustomerWS.xml)
 
 ---
 
 ## Customer REST vs SOAP - Spec Comparison
 
-| **REST (OpenAPI Spec)** | **SOAP (WSDL)** |
-|-------------------------|-----------------|
-| ```yaml
+**REST (OpenAPI Spec)**
+```yaml
 openapi: 3.0.3
 info:
   title: Customer REST API
@@ -134,8 +133,12 @@ components:
         errorMessage:
           type: string
           nullable: true
-          example: null``` | ```xml
-          <?xml version="1.0" encoding="UTF-8"?>
+          example: null
+```
+
+**SOAP (WSDL)**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
  Web Services API : CustomerWS
 -->
@@ -326,7 +329,8 @@ components:
    <soap:address location="https://can98.sfdc-58ktaz.salesforce.com/services/Soap/class/CustomerWS"/>
   </port>
  </service>
-</definitions>``` |
+</definitions>
+```
 
 ---
 
