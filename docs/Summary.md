@@ -62,22 +62,20 @@ In this Salesforce Integration Course for System Admins and Non-Developers, you 
 |------|-----|
 | **Postman** | API testing and automation |
 | **Salesforce Setup UI** | Configuration and permissions |
-| **Workbench** | REST/SOAP API exploration |
-| **Schema Builder** | Data model visualization |
 | **Developer Console / VS Code** | Logs, queries, and Apex class inspection |
 
 ---
 
 ## 🎯 Final Checklist
 
-- [x] Connected App created (with client credentials)
+- [x] External Connected App created (with client credentials)
 - [x] Integration User created with API access
 - [x] Permission sets and license assigned
 - [x] Postman access token retrieval tested
 - [x] Custom REST and SOAP APIs tested
 - [x] Platform Event published successfully
 - [x] Composite API tested with upsert + file upload
-
+- [x] Salesforce Callouts tested
 ---
 
 ## 🔗 Next Steps
