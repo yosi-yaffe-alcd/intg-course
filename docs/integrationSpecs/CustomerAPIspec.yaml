@@ -1,0 +1,72 @@
+openapi: 3.0.3
+info:
+  title: Customer REST API
+  description: REST API to create a Customer (Account + Contact) in Salesforce
+  version: 1.0.0
+servers:
+  - url: https://yourInstance.salesforce.com/services/apexrest
+    description: Salesforce Production Server
+
+paths:
+  /api1/Customer:
+    post:
+      summary: Create a new customer (Account + Contact)
+      operationId: createCustomer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateCustomerREQ'
+      responses:
+        '200':
+          description: Successfully created account and contact
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateCustomerRES'
+        '400':
+          description: Invalid input
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    CreateCustomerREQ:
+      type: object
+      properties:
+        accountName:
+          type: string
+          example: Acme Corporation
+        contactFirstName:
+          type: string
+          example: John
+        contactLastName:
+          type: string
+          example: Doe
+        contactEmail:
+          type: string
+          format: email
+          example: john.doe@acme.com
+      required:
+        - accountName
+        - contactFirstName
+        - contactLastName
+        - contactEmail
+
+    CreateCustomerRES:
+      type: object
+      properties:
+        accountId:
+          type: string
+          example: 001xx000003DGbTAAW
+        contactId:
+          type: string
+          example: 003xx000004TmiBAAS
+        status:
+          type: string
+          example: success
+        errorMessage:
+          type: string
+          nullable: true
+          example: null
