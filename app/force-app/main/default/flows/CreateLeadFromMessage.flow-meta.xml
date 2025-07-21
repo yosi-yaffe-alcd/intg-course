@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <description>Create Lead From Platform event Message</description>
+    <environments>Default</environments>
+    <interviewLabel>CreateLeadFromMessage {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create Lead From Message</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>CreateLead</name>
+        <label>Create Lead</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Company</field>
+            <value>
+                <stringValue>Unknown</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>$Record.ReplayId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LastName</field>
+            <value>
+                <stringValue>Unknown</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LeadSource</field>
+            <value>
+                <stringValue>Platform Message</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>SICCode__c</field>
+            <value>
+                <elementReference>$Record.MessageId__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Title</field>
+            <value>
+                <elementReference>$Record.Subject__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>CreateLead</targetReference>
+        </connector>
+        <flowRunAsUser>TriggeringUser</flowRunAsUser>
+        <object>Message__e</object>
+        <triggerType>PlatformEvent</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

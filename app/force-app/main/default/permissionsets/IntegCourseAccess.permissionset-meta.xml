@@ -8,7 +8,23 @@
         <apexClass>CustomerWS</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>LimitsCalloutService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RandomUserService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <description>integration course applicative user access to connected app + model</description>
+    <externalCredentialPrincipalAccesses>
+        <enabled>true</enabled>
+        <externalCredentialPrincipal>IntegCourseEXT-auth</externalCredentialPrincipal>
+    </externalCredentialPrincipalAccesses>
+    <externalCredentialPrincipalAccesses>
+        <enabled>true</enabled>
+        <externalCredentialPrincipal>RandomUserEXT-auth</externalCredentialPrincipal>
+    </externalCredentialPrincipalAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>

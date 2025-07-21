@@ -105,4 +105,4 @@ See detailed steps here: [How to Set Up Free API-Only Integration Users (Salesfo
 
 ---
 
-[⬅️ Previous: Payload Types & Examples](PayloadTypes.md) | [Next: Troubleshooting & Common Errors ➡️](troubleshooting.md)
+[⬅️ Previous: Payload Types & Examples](PayloadTypes.md) | [Next: Troubleshooting & Common Errors ➡️](Troubleshooting.md)

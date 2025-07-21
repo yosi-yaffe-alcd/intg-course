@@ -29,12 +29,17 @@ Salesforce supports both REST and SOAP-based integrations. Choosing the right pr
 - Authentication: OAuth 2.0
 - Supports: CRUD on sObjects, Queries, Composite API
 
+🔗 [Salesforce APIs](https://developer.salesforce.com/docs/apis#browse)
+🔗 [APIs and Integration](https://developer.salesforce.com/developer-centers/integration-apis)
+🔗 [Salesforce APIs for Postman](https://github.com/forcedotcom/postman-salesforce-apis)
+
 #### ✅ SOAP API (Standard)
 - XML-based communication
 - Used by enterprise systems needing strict structure
 - Authentication: Login call or session ID
 - Exposes full schema through WSDL
 
+🔗 [📎 Download Exterprise WSDL](integrationSpecs/enterpriseWsdl.xml)
 ---
 
 ### 🛠️ Custom API Examples
@@ -46,8 +51,6 @@ Salesforce supports both REST and SOAP-based integrations. Choosing the right pr
 
 
 🔗 [📎 Download OpenAPI Spec](integrationSpecs/CustomerAPIspec.yaml)
-
----
 
 #### 📥 Inbound SOAP (Custom Apex SOAP Web Service)
 - Annotated `webservice` methods in Apex

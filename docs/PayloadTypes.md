@@ -50,4 +50,4 @@ Acme Corporation,John,Doe,john.doe@acme.com
 
 ---
 
-[⬅️ Previous: Integration Fundamentals](IntegrationFundamentals.md) | [Next: Protocols: REST vs SOAP ➡️](Protocols.md)
+[⬅️ Previous: Protocols: REST vs SOAP ➡️](Protocols.md) | [Next: Setup Connection with Postman and External Connected App](PostmanOrgSetup.md)

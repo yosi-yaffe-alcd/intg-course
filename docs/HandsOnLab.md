@@ -86,6 +86,26 @@ In this hands-on lab, you will practice integrating Salesforce using different a
 
 ---
 
+## Test Apex Execute Anonymous
+
+Perform the following Apex anonymous code snippets in the Developer Console or your preferred Salesforce IDE:
+
+1. **Get Salesforce Limits by calling integration user**
+
+```apex
+LimitsCalloutService srv = new LimitsCalloutService();
+srv.getSalesforceLimits();
+```
+
+2. **Get a random user**
+
+```apex
+RandomUserService srv = new RandomUserService();
+srv.getRandomUser();
+```
+
+---
+
 ## Tips and Best Practices
 
 - Use environment variables in Postman to store and reuse access tokens
