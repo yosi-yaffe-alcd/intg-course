@@ -88,4 +88,4 @@ In this Salesforce Integration Course for System Admins and Non-Developers, you 
 
 ---
 
-[⬅ Previous Topic: Hands-On Lab](HandsOnLab.md)
+[⬅️ Previous Topic: Hands-On Lab](HandsOnLab.md)

@@ -334,5 +334,4 @@ components:
 
 ---
 
-⬅️ [Back: Integration Fundamentals](IntegrationFundamentals.md)  
-➡️ [Next: Payload Types »](PayloadTypes.md)
+[⬅️ Back: Integration Fundamentals](IntegrationFundamentals.md) | [Next: Payload Types ➡️](PayloadTypes.md)

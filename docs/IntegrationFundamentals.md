@@ -80,5 +80,4 @@ Salesforce can act as both a **provider** and a **consumer** of APIs.
 
 ---
 
-⬅️ [Back to Overview](Overview.md)  
-➡️ [Next: Protocols – REST vs SOAP »](Protocols.md)
+[⬅️ Back to Overview](Overview.md) | [Next: Protocols – REST vs SOAP ➡️](Protocols.md)

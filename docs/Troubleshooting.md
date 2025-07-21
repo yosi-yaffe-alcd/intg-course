@@ -70,7 +70,4 @@ Integration between Salesforce and external systems can encounter various issues
 
 ---
 
-## Navigation
-
-[⬅ Previous: Setup Connection with Postman and External Connected App](PostmanOrgSetup.md)  
-[Next: Hands-On Lab ➡](HandsOnLab.md)
+[⬅️ Previous: Setup Connection with Postman and External Connected App](PostmanOrgSetup.md) | [Next: Hands-On Lab ➡️](HandsOnLab.md)

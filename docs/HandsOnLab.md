@@ -105,5 +105,4 @@ In this hands-on lab, you will practice integrating Salesforce using different a
 
 ---
 
-[⬅ Previous Topic: Troubleshooting & Common Errors ➡](Troubleshooting.md)
-[Next Topic: Summary](Summary.md)
+[⬅️ Previous Topic: Troubleshooting & Common Errors ➡](Troubleshooting.md) | [Next Topic: Summary ➡️](Summary.md)

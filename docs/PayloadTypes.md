@@ -25,7 +25,7 @@ When integrating systems with Salesforce, understanding payload formats and how 
   "contactEmail": "john.doe@acme.com"
 }
 ``` 
-*XML (SOAP) Example**
+**XML (SOAP) Example**
 ```xml
 <CreateCustomerREQ>
   <accountName>Acme Corporation</accountName>
@@ -50,7 +50,4 @@ Acme Corporation,John,Doe,john.doe@acme.com
 
 ---
 
-### Navigation
-
-[⬅️ Previous: Integration Fundamentals](IntegrationFundamentals.md)  
-[➡️ Next: Protocols: REST vs SOAP ➡](Protocols.md)
+[⬅️ Previous: Integration Fundamentals](IntegrationFundamentals.md) | [Next: Protocols: REST vs SOAP ➡️](Protocols.md)

@@ -28,4 +28,4 @@ By the end of the course, you will have:
 
 ---
 
-➡️ **[Next: Integration Fundamentals »](IntegrationFundamentals.md)**
+ [Next: Integration Fundamentals ➡️](IntegrationFundamentals.md)
