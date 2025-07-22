@@ -97,11 +97,11 @@ LimitsCalloutService srv = new LimitsCalloutService();
 srv.getSalesforceLimits();
 ```
 
-2. **Get a random user**
+2. **Get a flight list**
 
 ```apex
-RandomUserService srv = new RandomUserService();
-srv.getRandomUser();
+DataGovREST srv = new DataGovREST();
+srv.getFlightInfo(5);
 ```
 
 ---

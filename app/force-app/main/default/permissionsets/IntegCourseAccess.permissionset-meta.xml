@@ -19,11 +19,11 @@
     <description>integration course applicative user access to connected app + model</description>
     <externalCredentialPrincipalAccesses>
         <enabled>true</enabled>
-        <externalCredentialPrincipal>IntegCourseEXT-auth</externalCredentialPrincipal>
+        <externalCredentialPrincipal>DataGOVEXT-auth</externalCredentialPrincipal>
     </externalCredentialPrincipalAccesses>
     <externalCredentialPrincipalAccesses>
         <enabled>true</enabled>
-        <externalCredentialPrincipal>RandomUserEXT-auth</externalCredentialPrincipal>
+        <externalCredentialPrincipal>IntegCourseEXT-auth</externalCredentialPrincipal>
     </externalCredentialPrincipalAccesses>
     <fieldPermissions>
         <editable>true</editable>
