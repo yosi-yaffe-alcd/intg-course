@@ -3,8 +3,8 @@
     <types>
         <members>CustomerRESTWS</members>
         <members>CustomerWS</members>
+        <members>DataGovREST</members>
         <members>LimitsCalloutService</members>
-        <members>RandomUserService</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -23,8 +23,8 @@
         <name>ExternalClientApplication</name>
     </types>
     <types>
+        <members>DataGOVEXT</members>
         <members>IntegCourseEXT</members>
-        <members>RandomUserEXT</members>
         <name>ExternalCredential</name>
     </types>
     <types>
@@ -48,8 +48,8 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>DataGOV</members>
         <members>IntegCourse</members>
-        <members>RandomUser</members>
         <name>NamedCredential</name>
     </types>
     <types>
